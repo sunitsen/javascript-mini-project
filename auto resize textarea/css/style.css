@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+::-webkit-scrollbar{
+  display: none;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  min-height: 100vh;
+}
+.wrapper{
+  color: aqua;
+  font-size: 28px;
+  text-align: center;
+}
+.wrapper textarea{
+  width: 100%;
+  padding: 15px;
+  outline: none;
+  font-size: 16px;
+  margin-top: 20px;
+  border-radius: 5px;
+  border-color: black;
+  max-height: 330px;
+}
+textarea:is(:focus, :valid){
+  border-radius: 2px;
+  padding: 14px;
+  border-color: red;
+}

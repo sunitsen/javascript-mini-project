@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: antiquewhite;
+
+}
+.wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ccc;
+  border-radius: 5px;
+  height: 40vh;
+}
+.logos img{
+  max-width: 100px;
+}
