@@ -1,13 +1,20 @@
 //crud application
 var selectedRow = null;
 //showing Alearts
-function showAlert(message, clasName){
+function showAlert(message, className){
+
     const div = document.createElement("div");
-    div.classList = `alert alert-${clasName}`;
+
+    div.classList = `alert alert-${className}`;
+
     div.appendChild(document.createTextNode(message));
+
     const container = document.querySelector(".container");
+
     const main = document.querySelector(".main");
+
     container.insertBefore(div,main);
+
     setTimeout(() => document.querySelector(".alert").remove(), 3000);
 }
 
@@ -15,7 +22,7 @@ function showAlert(message, clasName){
 
 var selectedRowTwo = null;
 //showing alearts
-function showAlertTwo(message, clasName){
+function showAlertTwo(message, className){
     const div2 = document.createElement("div");
     
 }
@@ -26,6 +33,8 @@ function clearFields() {
     document.querySelector("#lastName").value ="";
     document.querySelector("#rollNo").value ="";
 }
+
+
 // Add data
 document.querySelector("#student-form").addEventListener("submit", (e) => {
     e.preventDefault();

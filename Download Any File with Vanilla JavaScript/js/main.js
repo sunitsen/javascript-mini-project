@@ -1,7 +1,7 @@
 //selection
 const fileInput = document.querySelector("input"),
 downloadBtn = document.querySelector("button");
-elements = document.getElementById('elements')
+elements = document.getElementById("elements")
 
 
 downloadBtn.addEventListener("click", (e) => {

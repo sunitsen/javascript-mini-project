@@ -17,6 +17,6 @@ if(userAgent.match(/crome/i)){
 }
 const logo = document.querySelector(`.logos .${browser}`);
 
-if(logo  != ""){
+if(logo != ""){
     logo.style.opacity = "1";
 }
